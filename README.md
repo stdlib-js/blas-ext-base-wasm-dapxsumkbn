@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dapxsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-wasm-dapxsumkbn@deno/mod.js';
+import dapxsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-wasm-dapxsumkbn@v0.1.1-deno/mod.js';
 ```
 
 #### dapxsumkbn.main( N, alpha, x, strideX )
@@ -265,7 +265,7 @@ The function has the following additional parameters:
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import dapxsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-wasm-dapxsumkbn@deno/mod.js';
+import dapxsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-wasm-dapxsumkbn@v0.1.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
